@@ -78,6 +78,7 @@ img:hover{
   transform: scale(1.08, 1.08);
 }
 
+/* https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_keyframes */
 @keyframes toMove{
   from {background-position: 0px;}
   to {background-position: 412px;}

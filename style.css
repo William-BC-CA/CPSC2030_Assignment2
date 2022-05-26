@@ -66,6 +66,14 @@ nav a {
   text-decoration: none;
 }
 
+img {
+  transition: transform 2s;
+}
+
+img:hover{
+  transform: scale(1.1, 1.1);
+}
+
 @media screen and (min-width: 900px) {
   .wrapper {
     max-width: 1200px;

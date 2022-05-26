@@ -22,7 +22,7 @@ h3 {
 
 body {
   background-image: url('images/inspiration-geometry.png');
-  animation: toMove 10s linear infinite;
+  animation: toMove 10s linear infinite; /* https://stackoverflow.com/questions/55513814/how-to-smoothly-do-css-animation-without-break-at-the-end */
 
 }
 

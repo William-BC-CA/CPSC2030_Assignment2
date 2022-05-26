@@ -37,6 +37,26 @@ nav {
   grid-row: 2;
 }
 
+nav ul li:hover{
+  transition: border-top-color 1s 0s, border-right-color 1s 0.2s, border-bottom-color 1s 0.4s, border-left-color 1s 0.6s;
+  /* transition-timing-function: linear; */
+}
+
+nav ul li{
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-bottom-color: transparent;
+  border-left-color: transparent;
+  transition: border-top-color 1s 0s, border-right-color 1s 0.2s, border-bottom-color 1s 0.4s, border-left-color 1s 0.6s;
+}
+
+/* nav ul li:hover{
+  border-top: 10px solid hotpink;
+  border-right: 10px solid hotpink;
+  border-bottom: 10px solid hotpink;
+  border-left: 10px solid hotpink;
+} */
+
 img {
   width: 100%;
 }
@@ -69,7 +89,7 @@ nav a {
 }
 
 img {
-  transition: transform 2s;
+  transition: transform 1s;
 }
 
 /* https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_transition */
